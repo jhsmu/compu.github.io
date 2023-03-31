@@ -1,0 +1,122 @@
+/* swiper */
+
+.swiper{
+    width: 100%;
+}
+.swiper-wrapper{
+    width: 100%;
+    height: 35em;
+    display: flex;
+    align-items: center;
+}
+.card_cont{
+    width: 20em;
+    height: 90%;
+    background-color: #fff;
+    border-radius: 2em;
+    box-shadow: 0 0 2em rgb(0, 0, 0,.2);
+    padding: 2em 1em;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    margin: 0 2em;
+}
+.card_image{
+    width: 10em;
+    height: 10em;
+    border-radius: 50%;
+    border: 5px solid black;
+
+}
+.card_image img{
+    width: 100%;
+    height: 100%;
+    border-radius:50%;
+    object-fit: cover;
+ 
+}
+.card_contenido{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.card_titulo{
+    font-size: 1.5em;
+    font-weight: 500;
+    position: relative;
+    top: .2em;
+}
+.card_nombre{
+    color: black;
+}
+.card_texto{
+    text-align: center;
+    font-size: 1.1em;
+    margin:  1em 0;
+}
+.card_btn{
+    background-color: #141254;
+    color: #fff;
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    border: none;
+    padding: .5em;
+    border-radius: .5em;
+    margin-top: .5em;
+    cursor: pointer;
+}
+
+.containe{
+    width: 100%;
+    margin-top: 3vh;
+    
+  }
+  .containe .swiper-container{
+    width: 100%;
+    height: 100%;
+  }
+  .containe .swiper-slide {
+    position: relative;
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    border-radius: 15px;
+    text-align: start;
+    box-shadow: 0px 4px 4px rgba(196, 196, 196, 0.25);
+   
+  }
+  .containe .swiper-slide img{
+     display: block;
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+      border-top-left-radius: 15px;
+      border-top-right-radius: 15px;
+  
+  }
+  .containe .swiper-slide .card-description{
+      padding:1rem 1rem;
+  }
+  .containe .swiper-slide .card-title,.containe .swiper-slide .card-text{
+     margin-bottom: .5rem;
+  }
+  .containe .swiper-slide .card-link{
+     text-align: center;
+    
+  }
+  .containe .swiper-slide .card-link a{
+      text-decoration: none;
+      color: #1d6ce2;
+  }
+  .swiper-button-next{
+      right: 26px !important;
+  }
+  .swiper-button-prev{
+      left: 26px !important;
+  }
+ 
+  

@@ -1,0 +1,135 @@
+body{
+    font-family: 'Shantell Sans', cursive;
+}
+.avatar{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    position: absolute;
+    margin: 9px 0 9px;
+    left: calc(50% - 105px);
+}
+/* Encabezado */
+
+.navbar {
+    height: 100px;
+    border-top: solid 15px #00235B;
+    border-bottom: solid 5px orange;
+    background: linear-gradient(to right, #2192FF, #144272);
+}
+.navbar-brand{
+    font-size: 2rem;
+    margin-left: 15px;
+    color: #fff;
+}
+.navbar-brand:hover{
+    color: orange;
+}
+.navbar-toggler{
+    border: solid 2px #fff;
+    
+}
+.nav-link{
+    color: #fff;
+    font-size: 1.1rem;
+}
+.social{
+    color: #fff;
+    font-size: 1.1rem;
+    text-decoration: none;
+}
+.transparentes {
+    margin: 0 9.9rem 0 0;
+}
+#menu a{
+    color: #111;
+    background-color: white;
+    font-size: 18px;
+}
+#menu a:hover{
+    color: #00235B;
+}
+
+/* pie de pagina */
+
+.pie-pagina {
+    width: 100%;
+    background: linear-gradient(to right, #2192FF, #144272);
+}
+
+.pie-pagina .grupo1 {
+    width: 100%;
+    max-width: 12000px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    padding: 55px 0px;
+}
+
+.pie-pagina .grupo1 .box figure {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pie-pagina .grupo1 .box figure img {
+    width: 300px;
+    border-radius: 100px;
+}
+.box figure img{
+width: 250px;
+object-fit: cover;
+}
+.pie-pagina .grupo1 .box h2 {
+    color: #fff;
+    margin-bottom: 25px;
+    font-size: 35px;
+}
+
+.pie-pagina .grupo1 .box p {
+    color: #fbf8fe;
+    margin-bottom: 15px;
+}
+
+.pie-pagina .grupo1 .redes a {
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: #fff;
+    margin-right: 10px;
+    background-color: #141254;
+    text-align: center;
+    transition: all 300ms ease;
+    border-radius: 50%;
+}
+
+.pie-pagina .grupo1 .redes a:hover {
+    color: #0f1aab
+}
+.grupo1 .box3{
+    margin: 35% 20%;
+}
+.box3 h2{
+    color: #fff;
+    margin-left: 15px;
+    
+}
+.pie-pagina .grupo2 {
+    background-color: #141254;
+    padding: 15px 10px;
+    text-align: center;
+    color: #fff;
+}
+
+.pie-pagina .grupo2 small {
+    font-size: 20px;
+}
+
+.text {
+    text-align: justify;
+}

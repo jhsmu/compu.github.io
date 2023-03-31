@@ -1,0 +1,182 @@
+.texto{
+  background: linear-gradient(to right, #2192FF, #144272);
+   height: 100px;
+   padding: 30px;
+   color: #fff;
+   border-radius: 15px;
+}
+
+
+/* cargando */
+.color {
+    height: 300px;
+    display: grid;
+    place-items: center;
+    background: #ccc;
+    border-radius: 25px;
+  }
+  .loader{
+    height: 190px;
+    display: flex;
+    transform: rotate(180deg);
+  }
+  .loader span{
+    width: 36px;
+    margin: 0 2px;
+    background: #fff;
+    border-radius: 4px;
+    animation: loading 2s infinite;
+  }
+
+  @keyframes loading{
+    0%, 100%{
+        height: 60px;
+        background: #1d6ce2;
+    }
+    25%{
+        height: 100px;
+        background: aqua;
+    }
+    50%{
+        height: 100px;
+        background: aquamarine;
+    }
+    75%{
+        height: 200px;
+        background: #141254;
+    }
+  }
+
+  .loader span:nth-child(1){
+    animation-delay: .2s;
+  }
+  
+  .loader span:nth-child(2){
+    animation-delay: .4s;
+  }
+  
+  .loader span:nth-child(3){
+    animation-delay: .6s;
+  }
+  
+  .loader span:nth-child(4){
+    animation-delay: .8s;
+  }
+  
+  .loader span:nth-child(5){
+    animation-delay: 1s;
+  }
+  .loader span:nth-child(6){
+    animation-delay: 1.2s;
+  }
+  .loader span:nth-child(7){
+    animation-delay: 1.4s;
+  }
+  .loader span:nth-child(8){
+    animation-delay: 1.6s;
+  }
+  .loader span:nth-child(9){
+    animation-delay: 1.8s;
+  }
+  .loader span:nth-child(10){
+    animation-delay: 2s;
+  }
+  .loader span:nth-child(11){
+    animation-delay: 1s;
+  }
+  .loader span:nth-child(12){
+    animation-delay: 1s;
+    
+  }
+  
+  /* pruebas */
+  section{
+    display: flex;
+    width: 100%;
+    height: 230px;
+    border-radius: 25px;
+  }
+  section img{
+    width: 0px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .8;
+    transition: .5 ease ;
+  }
+  section img:hover{
+    cursor: crosshair;
+    width: 300px;
+    opacity: 1;
+    filter: contrast(120%);
+  }
+  /* fondos 3d */
+
+  .fondo{
+    background: linear-gradient(to right,(#2c5364, #0f2027));
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    
+  }
+  .slider{
+    box-sizing: border-box;
+    position: relative;
+    width: 200px;
+    height: 200px;
+    transform-style: preserve-3d;
+    animation: rotate 30s linear infinite;
+  }
+  @keyframes rotate{
+    0%{
+        transform: perspective(1000px) rotateY(0deg);
+    }
+    100%{
+      transform: perspective(1000px) rotateY(380deg);
+    }
+  }
+  .slider span{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform-origin: center;
+    transform-style: preserve-3d;
+    transform: rotateY(calc(var(--i)*45deg)) translateZ(350px);
+  }
+.slider span img{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  object-fit: cover;
+  transition: 2s;
+}
+.slider span:hover img{
+  transform: translateY(-50px) scale(1.2);
+}
+
+/* categoria paginas */
+.cate{
+  text-align: center;
+  background: #1d6ce2;
+  color: #fff;
+  height: 100px;
+  padding: 35px;
+  border-radius: 15px;
+}
+
+p{
+  font-size: 20px;
+  font-family: 'PT Sans', sans-serif;
+  
+}
+h5{
+  font-size: 25px;
+  font-family: 'Edu NSW ACT Foundation', cursive;
+
+}

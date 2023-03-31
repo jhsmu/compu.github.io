@@ -1,0 +1,22 @@
+.navbar-brand{
+    font-size: 25px;
+    margin-left: 30px;
+}
+#socia{
+   margin-right: 40px;
+    color: #2B3467 ;
+   font-size: 20px;
+}
+.socia-container a {
+    height: 35px;
+    width: 35px;
+    margin: 0 5px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #2B3467;
+    border-radius: 50%;
+}
+.socia-container a:hover{
+    background: #BAD7E9;
+}
